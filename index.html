@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajei</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p4" >
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title"> Viajei </h1>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                
+                <ul class="nav nav-pills d-block d-md-flex">
+
+                    <li class="nav-item fw-bold"><a href="#sobre-nos" class="nav-link"> 
+                        <i class="bi bi-airplane-engines me-2"> </i>Sobre o Viajei</a></li>
+
+                    <li class="nav-item fw-bold"><a href="#destino" class="nav-link"> 
+                        <i class="bi bi-cart me-2"></i>Destinos </a></li>
+
+                    <li class="nav-item fw-bold"><a href="#pacotes" class="nav-link"> 
+                        <i class="bi bi-chat-left-text me-2"></i>Pacotes de viagens </a></li>
+                    
+                        <li class="nav-item fw-bold"><a href="#fale-conosco" class="nav-link"> 
+                            <i class="bi bi-chat-left-text me-2"></i>Fale conosco </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-nos">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="img/férias-de-verão.jpg" class="d-block w-100" alt="Nosso escritorio">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/peris.webp" class="d-block w-100" alt="destinos">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/nvoaz.jpg" class="d-block w-100" alt="">
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/punta-cana-topo.jpg " class="d-block w-100" alt="">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="text-center" class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="text-center" class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 ">
+                            <img src="img/escritorio.webp" alt="Escritorio de viagens" class="img-fluid" style="max-width: 100%; height: auto;">
+                        </div>
+
+                        <div class="col-lg-7 mt-3 mt-lg-0">
+                            <h2 class="section-title"> Sobre <span>Nós</span></h2>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                sto repudiandae rem aspernatur molestiae perferendis error. Hic voluptatum minima nulla molestias quia aspernatur dolorem praesentium pariatur ex.
+                            </p>
+                            <h3 class="section-title">Nossa missão </h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit eius consequatur magni accusantium soluta quaerat corrupti,
+                                recusandae tenetur saepe nemo sed rem voluptas? Iure, harum sequi ipsum beatae nesciunt repudiandae!
+                            </p>
+
+                            <ul>
+                                <li>item 1</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="destino" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h1 class="section-title text-center"> Seu proximo <span>destino</span> </h1>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="img/Japão.jpg" alt="Ponto turistico do japão" class="d-block w-100 roundes mb-2">
+                        <h3 class="section-title text-colored">
+                            Toquio - Japão
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Nihil pariatur nesciunt unde velit, voluptate minima laudantium 
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/peris.webp" alt="Torre efel e região em volta" class="d-block w-100 roundes mb-2">
+                        <h3 class="section-title text-colored">
+                            Paris
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Nihil pariatur nesciunt unde velit, voluptate minima laudantium 
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/copenhaga-dinamarca.jpg" alt="Lago com barcos na dinamarca" class="d-block w-100 roundes mb-2">
+                        <h3 class="section-title text-colored">
+                            Dinamarca
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Nihil pariatur nesciunt unde velit, voluptate minima laudantium 
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/Antartica.jpg" alt="Geleiras da antartida" class="d-block w-100 roundes mb-2">
+                        <h3 class="section-title text-colored">
+                            Antartida
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Nihil pariatur nesciunt unde velit, voluptate minima laudantium 
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/Dubai_Banner.jpg" alt="Visão aerea de dubai" class="d-block w-100 roundes mb-2">
+                        <h3 class="section-title text-colored">
+                            Dubai
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Nihil pariatur nesciunt unde velit, voluptate minima laudantium 
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/dalva.jpg" alt=" Visão do litoral de salvador" class="d-block w-100 roundes mb-2">
+                        <h3 class="section-title text-colored">
+                            Salvador
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Nihil pariatur nesciunt unde velit, voluptate minima laudantium 
+                        </p>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <section id="pacotes">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Pacotes <span>De Viagem</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-pacotes">
+                            <!-- Botões para alternar entre as abas -->
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#america-do-norte" class="fw-bold text-start nav-link text-colored">América do Norte</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#america-do-sul" class="fw-bold text-start nav-link text-colored active">América do Sul</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#africa" class="fw-bold text-start nav-link text-colored">África</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#asia" class="fw-bold text-start nav-link text-colored">Ásia</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#europa" class="fw-bold text-start nav-link text-colored">Europa</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#antartida" class="fw-bold text-start nav-link text-colored">Antártida</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#oceania" class="fw-bold text-start nav-link text-colored">Oceania</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="america-do-sul">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/AMe-sul-colombia cartagena.jpg" alt="Centro Histórico de Cartagena">
+                                        <h5 class="text-colored fw-bold">Colômbia</h5>
+                                        <p>Explore o vibrante Centro Histórico de Cartagena, com sua arquitetura colonial.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/salvador.jpg" alt="Praia de Salvador">
+                                        <h5 class="text-colored fw-bold">Salvador</h5>
+                                        <p>Descubra a cultura baiana em Salvador, com suas praias e tradições afro-brasileiras.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/argentina.jpg" alt="Vista da cidade e das montanhas">
+                                        <h5 class="text-colored fw-bold">Argentina</h5>
+                                        <p>Conheça Buenos Aires, com sua mistura de modernidade e tradição.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tab-pane" id="america-do-norte">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/Mexico beach.jpg" alt="Ilha das Mulheres">
+                                        <h5 class="text-colored fw-bold">Ilha das Mulheres</h5>
+                                        <p>Explore as belas praias e paisagens naturais da Ilha das Mulheres, no México.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/CN-Tower-788x450.jpg" alt="Toronto">
+                                        <h5 class="text-colored fw-bold">Toronto</h5>
+                                        <p>Conheça Toronto, uma das maiores cidades do Canadá, com atrações modernas e culturais.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/orlando.png" alt="Orlando">
+                                        <h5 class="text-colored fw-bold">Orlando</h5>
+                                        <p>Desfrute dos parques temáticos e atrações familiares em Orlando, Flórida.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="africa">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/Safári-na-África-do-Sul.jpg" alt="safari na africa ">
+                                        <h5 class="text-colored fw-bold">Africa</h5>
+                                        <p>Explore as belas praias e paisagens naturais da Ilha das Mulheres, no México.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/cidadedocabo.jpeg" alt="Toronto">
+                                        <h5 class="text-colored fw-bold">Toronto</h5>
+                                        <p>Conheça Toronto, uma das maiores cidades do Canadá, com atrações modernas e culturais.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/orlando.png" alt="Orlando">
+                                        <h5 class="text-colored fw-bold">Orlando</h5>
+                                        <p>Desfrute dos parques temáticos e atrações familiares em Orlando, Flórida.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="asia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/Mexico beach.jpg" alt="Ilha das Mulheres">
+                                        <h5 class="text-colored fw-bold">Ilha das Mulheres</h5>
+                                        <p>Explore as belas praias e paisagens naturais da Ilha das Mulheres, no México.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/CN-Tower-788x450.jpg" alt="Toronto">
+                                        <h5 class="text-colored fw-bold">Toronto</h5>
+                                        <p>Conheça Toronto, uma das maiores cidades do Canadá, com atrações modernas e culturais.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/orlando.png" alt="Orlando">
+                                        <h5 class="text-colored fw-bold">Orlando</h5>
+                                        <p>Desfrute dos parques temáticos e atrações familiares em Orlando, Flórida.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="europa">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/Mexico beach.jpg" alt="Ilha das Mulheres">
+                                        <h5 class="text-colored fw-bold">Ilha das Mulheres</h5>
+                                        <p>Explore as belas praias e paisagens naturais da Ilha das Mulheres, no México.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/CN-Tower-788x450.jpg" alt="Toronto">
+                                        <h5 class="text-colored fw-bold">Toronto</h5>
+                                        <p>Conheça Toronto, uma das maiores cidades do Canadá, com atrações modernas e culturais.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/orlando.png" alt="Orlando">
+                                        <h5 class="text-colored fw-bold">Orlando</h5>
+                                        <p>Desfrute dos parques temáticos e atrações familiares em Orlando, Flórida.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="antartida">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/Mexico beach.jpg" alt="Ilha das Mulheres">
+                                        <h5 class="text-colored fw-bold">Ilha das Mulheres</h5>
+                                        <p>Explore as belas praias e paisagens naturais da Ilha das Mulheres, no México.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/CN-Tower-788x450.jpg" alt="Toronto">
+                                        <h5 class="text-colored fw-bold">Toronto</h5>
+                                        <p>Conheça Toronto, uma das maiores cidades do Canadá, com atrações modernas e culturais.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/orlando.png" alt="Orlando">
+                                        <h5 class="text-colored fw-bold">Orlando</h5>
+                                        <p>Desfrute dos parques temáticos e atrações familiares em Orlando, Flórida.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="oceania">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/Mexico beach.jpg" alt="Ilha das Mulheres">
+                                        <h5 class="text-colored fw-bold">Ilha das Mulheres</h5>
+                                        <p>Explore as belas praias e paisagens naturais da Ilha das Mulheres, no México.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/CN-Tower-788x450.jpg" alt="Toronto">
+                                        <h5 class="text-colored fw-bold">Toronto</h5>
+                                        <p>Conheça Toronto, uma das maiores cidades do Canadá, com atrações modernas e culturais.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/orlando.png" alt="Orlando">
+                                        <h5 class="text-colored fw-bold">Orlando</h5>
+                                        <p>Desfrute dos parques temáticos e atrações familiares em Orlando, Flórida.</p>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+        <section id="fale-conosco"> 
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center"> </h2>
+                </div>
+                <div class="row">
+                        <h2 class="section-title text-center"> Fale <span>conosco</span></h2>
+                </div>
+                <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold text-colored" for="nome">Seu nome</label>
+                                    <input type="text" id="nome" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold text-colored" for="email">Seu e-mail</label>
+                                    <input type="email" id="email" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold text-colored" for="telefone" >Seu telefone (contato)</label>
+                                    <input type="tel" id="telefone" class="form-control" placeholder="(00) 00000-0000">
+                                    <div class="invalid-feedback">Número de telefone invalido.</div>
+                                    <div class="valid-feedback">Número válido.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold text-colored" for="mensagem">Sua mensagem</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                                <button type="submit" class="btn fw-bold">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-hand-thumbs-up-fill "></i>
+                                    Redes sociais</h3>
+                                <ul class="social-links">
+                                    <li class="fs-5  ">
+                                        <a href="#"><i class="bi- bi-instagram text-colored"></i></a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="#"><i class="bi- bi-facebook text-colored"></i></a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#"><i class="bi- bi-twitter text-colored"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill "></i>
+                                    Endereço</h3>
+                                <p>Rua Testando Sua Fé 939 - Misericordia</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script>
+    $('#telefone').mask('(00) 00000-0000')
+
+    document.addEventListener("DOMContentLoaded",function(){
+        const telefoneInput = document.getElementById("telefone");
+        
+
+        telefoneInput.addEventListener('input', function(){
+            validarTelefone()
+        });
+
+        function validarTelefone() {
+            const telefone = telefoneInput.value;
+            const regexTelefone = /^\(\d{2}\) \d{4,5}-\d{4}$/; // Aceita (XX) XXXX-XXXX ou (XX) XXXXX-XXXX
+            
+            if (regexTelefone.test(telefone)) {
+                telefoneInput.classList.remove("is-invalid");
+                telefoneInput.classList.add("is-valid");
+            } else {
+                telefoneInput.classList.remove("is-valid");
+                telefoneInput.classList.add("is-invalid");
+            }
+        }
+    })
+    </script>
+</body>
+</html>
