@@ -1,5 +1,6 @@
 body{
     font-family: roboto,sans-serif;
+
 }
 
 .navbar{
@@ -46,13 +47,25 @@ body{
     color:#ec9fe5
 }
 
-.carousel-item{
-    height: 800px;
-    width: 100%;
+
+
+#carousel{
+    height: auto;
 }
 
 .social-links li{
     text-decoration: none;
     list-style: none;
     display: inline;
+}
+
+@media (nax-width:768px){
+    #carousel {
+        margin-bottom: 5px;
+    }
+
+    .pt-5.pb-5 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
 }
